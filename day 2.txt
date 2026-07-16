@@ -1,0 +1,7 @@
+def my_sum(iterable):
+total=0
+for value in iterable:
+total += value 
+return total
+print(my_sum(numbers))
+

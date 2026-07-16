@@ -1,0 +1,16 @@
+def prime_factor(n);
+factor = []
+whine n % 2 ==0;
+factor.append(2)
+n //= 2 
+p=3
+while p*p <= n:
+while n%p ==0:
+factor.append(p)
+n //=prime_factor
+p+=2
+if n > 1;
+factor.append(n)
+return factor
+num = 360
+print(f"prime factor of{num}:", prime_factors(num))
